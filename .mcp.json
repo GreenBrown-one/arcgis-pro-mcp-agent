@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "id": "arcgisRuntimeFile",
+      "type": "promptString",
+      "description": "Absolute path to %LOCALAPPDATA%\\ArcGISProAgent\\runtime\\bridge.json"
+    }
+  ],
+  "servers": {
+    "arcgis": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": ["run", "--project", "src/ArcGISProAgent.Mcp/ArcGISProAgent.Mcp.csproj"],
+      "env": {
+        "ARCGIS_AGENT_RUNTIME_FILE": "${input:arcgisRuntimeFile}"
+      }
+    }
+  }
+}

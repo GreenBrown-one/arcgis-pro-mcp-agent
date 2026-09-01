@@ -1,0 +1,22 @@
+{
+  "productName": "ArcGIS Pro 智能助手（预览版）",
+  "version": "0.2.0-preview.1",
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "externalBin": ["generated/preview/ArcGISProAgent.Mcp"],
+    "resources": [
+      "generated/preview/ArcGISProAgent.AddIn.esriAddInX",
+      "../../../THIRD_PARTY_NOTICES.md",
+      "../../../licenses/nicogis-mcp-arcgis-pro-addin/LICENSE"
+    ],
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "languages": ["SimpChinese", "English"],
+        "startMenuFolder": "ArcGIS Pro 智能助手",
+        "installerHooks": "windows/hooks.nsh"
+      }
+    }
+  }
+}

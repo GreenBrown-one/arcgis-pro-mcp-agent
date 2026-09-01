@@ -1,0 +1,18 @@
+{
+  "identifier": "default",
+  "description": "Minimum permissions for the ArcGIS Pro intelligent assistant window.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        { "url": "https://auth.openai.com/*" },
+        { "url": "https://chatgpt.com/*" },
+        { "url": "https://openai.com/*" },
+        { "url": "https://learn.chatgpt.com/*" }
+      ]
+    },
+    "dialog:allow-open"
+  ]
+}

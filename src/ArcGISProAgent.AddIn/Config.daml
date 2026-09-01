@@ -1,0 +1,25 @@
+<ArcGIS defaultAssembly="ArcGISProAgent.AddIn.dll" defaultNamespace="ArcGISProAgent.AddIn" xmlns="http://schemas.esri.com/DADF/Registry">
+  <AddInInfo id="{1A0481EA-3F43-4C98-B4B5-A58C727CD115}" version="0.2.0" desktopVersion="3.7.0.1901" product="ArcGISPro">
+    <Name>ArcGIS Pro 智能助手桥接</Name>
+    <Description>ArcGIS Pro 智能助手的本机安全桥接与连接状态。</Description>
+    <Image>Images\AddInDesktop32.png</Image>
+    <Author>ArcGIS Pro Agent</Author>
+    <Company />
+    <Date>2026-07-19</Date>
+    <Subject>Framework</Subject>
+  </AddInInfo>
+  <modules>
+    <insertModule id="ArcGISProAgent_AddIn_Module" className="AgentModule" autoLoad="true" caption="ArcGIS Pro 智能助手桥接">
+      <groups>
+        <group id="ArcGISProAgent_AddIn_StatusGroup" caption="智能助手" appearsOnAddInTab="true">
+          <button refID="ArcGISProAgent_AddIn_StatusButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <button id="ArcGISProAgent_AddIn_StatusButton" caption="连接状态" className="StatusButton" loadOnClick="true" smallImage="Images\AddInDesktop16.png" largeImage="Images\AddInDesktop32.png">
+          <tooltip heading="连接状态">显示当前桥接连接与版本详情。<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

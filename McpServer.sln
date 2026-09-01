@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAgent.AddIn", "src\ArcGISProAgent.AddIn\ArcGISProAgent.AddIn.csproj", "{DFB5FE5F-2CCE-8D94-FBC8-F27964369175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAgent.Contracts", "src\ArcGISProAgent.Contracts\ArcGISProAgent.Contracts.csproj", "{91E0A13B-4E66-4C18-AB26-0C146A5D365C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAgent.Contracts.Tests", "tests\ArcGISProAgent.Contracts.Tests\ArcGISProAgent.Contracts.Tests.csproj", "{D01C689C-2B01-4A58-9E09-15CFC4492727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAgent.Bridge", "src\ArcGISProAgent.Bridge\ArcGISProAgent.Bridge.csproj", "{216E84A7-90CC-420F-A6B5-7346BAF4E977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAgent.Bridge.Tests", "tests\ArcGISProAgent.Bridge.Tests\ArcGISProAgent.Bridge.Tests.csproj", "{F601AF95-A016-40A1-A843-7AC0978B1B46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAgent.Mcp", "src\ArcGISProAgent.Mcp\ArcGISProAgent.Mcp.csproj", "{C0E0E7C7-B49A-4C82-9A31-09B32C7F9F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAgent.Mcp.Tests", "tests\ArcGISProAgent.Mcp.Tests\ArcGISProAgent.Mcp.Tests.csproj", "{D9E229A3-6A25-4DEA-8E67-F25D557C0219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB5FE5F-2CCE-8D94-FBC8-F27964369175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB5FE5F-2CCE-8D94-FBC8-F27964369175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB5FE5F-2CCE-8D94-FBC8-F27964369175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB5FE5F-2CCE-8D94-FBC8-F27964369175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E0A13B-4E66-4C18-AB26-0C146A5D365C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E0A13B-4E66-4C18-AB26-0C146A5D365C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E0A13B-4E66-4C18-AB26-0C146A5D365C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E0A13B-4E66-4C18-AB26-0C146A5D365C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01C689C-2B01-4A58-9E09-15CFC4492727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01C689C-2B01-4A58-9E09-15CFC4492727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01C689C-2B01-4A58-9E09-15CFC4492727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01C689C-2B01-4A58-9E09-15CFC4492727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216E84A7-90CC-420F-A6B5-7346BAF4E977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216E84A7-90CC-420F-A6B5-7346BAF4E977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216E84A7-90CC-420F-A6B5-7346BAF4E977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216E84A7-90CC-420F-A6B5-7346BAF4E977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F601AF95-A016-40A1-A843-7AC0978B1B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F601AF95-A016-40A1-A843-7AC0978B1B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F601AF95-A016-40A1-A843-7AC0978B1B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F601AF95-A016-40A1-A843-7AC0978B1B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E0E7C7-B49A-4C82-9A31-09B32C7F9F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E0E7C7-B49A-4C82-9A31-09B32C7F9F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E0E7C7-B49A-4C82-9A31-09B32C7F9F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E0E7C7-B49A-4C82-9A31-09B32C7F9F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E229A3-6A25-4DEA-8E67-F25D557C0219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E229A3-6A25-4DEA-8E67-F25D557C0219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E229A3-6A25-4DEA-8E67-F25D557C0219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E229A3-6A25-4DEA-8E67-F25D557C0219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19C92163-8030-4074-98F3-1ACCFD026EC3}
+	EndGlobalSection
+EndGlobal
